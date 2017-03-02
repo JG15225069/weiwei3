@@ -1,0 +1,51 @@
+/* 
+* @Author: anchen
+* @Date:   2017-03-02 15:50:39
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-03-02 16:47:30
+* float 法，注意的是中间的div应该放到最后，但是当页面缩小到一定程度时，右边的div会错位
+*/
+.box{
+    padding: 20px;
+    overflow: auto;
+    background-color: #eee;
+    border: 1px solid #999;
+}
+.box .team_title{
+    width: 200px;
+    background-color: white;
+    overflow: auto;
+    float: left;
+    margin: 20px;
+    /*display: inlisne;*/
+    /*height: 100px;*/
+}
+.box .team_title img{
+    display: block;
+    margin: 20px;
+    width:80px;
+    height:80px;
+    float:left;
+}
+.box .content{
+    width: auto;
+    background-color: white; 
+    margin: 20px 160px 20px 240px;
+    padding: 20px;
+    /*display: inline;*/
+    
+}
+.box .personal_img{
+    width: 120px;
+    background-color: white;
+    float: right;
+    overflow: auto;
+    margin: 20px;
+}
+.box .personal_img img{
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 10px 20px;
+    /*float: right;*/
+}
